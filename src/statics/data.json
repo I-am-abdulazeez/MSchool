@@ -1,0 +1,23 @@
+{
+  "users": {
+    "USERID1": {
+      "name": "Opeyemi",
+      "email": "opeyemi@gmail.com",
+      "department": "Computer Science",
+      "select": "Student"
+    },
+    "USERID2": {
+      "name": "Azeez",
+      "email": "azeez@gmail.com",
+      "department": "Computer Science",
+      "select": "Student"
+    }
+  },
+  "events": {
+    "USERID": {
+      "postedOn": "25/09/2020",
+      "topic": "Internation Execution",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus, laudantium dolorem et deserunt blanditiis nemo dolore, cum illum cupiditate libero atque odit aut facilis repudiandae rerum. In, eius dignissimos?"
+    }
+  }
+}
