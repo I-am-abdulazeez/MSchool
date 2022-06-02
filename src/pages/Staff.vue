@@ -2,7 +2,7 @@
   <q-page class="q-pa-lg text-center">
     <h5 class="q-mt-none q-mb-sm">School Staffs</h5>
     <div class="row">
-      <div class="col-6 q-pa-md" v-for="(user, key) in allUsers" :key="user.id">
+      <div class="col-6 q-pa-md" v-for="user in allUsers" :key="user.id">
         <div
           v-if="user.select === 'Staff' || user.select === 'Non-Teaching-Staff'"
         >
@@ -49,5 +49,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
